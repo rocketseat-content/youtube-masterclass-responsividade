@@ -136,7 +136,7 @@ CARDS
   margin: auto;
 
   display: grid;
-  grid-template-columns: 310px 310px 310px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
 }
 
@@ -227,8 +227,8 @@ MODAL
   
   background-color: #fff;
   
-  width: 800px;
-  height: 400px;
+  width: 95%;
+  height: 95%;
   
   margin: 0 auto;
   padding: 10px;
