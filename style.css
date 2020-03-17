@@ -7,12 +7,21 @@
   outline: 0;
 }
 
+html {
+  /* a cada 1rem será considera 10px */
+  font-size: 62.5%;
+}
+
 html,
 body {
   height: 100vh;
   font-family: "Source Sans Pro";
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
 }
 
 header {
@@ -24,7 +33,9 @@ header .container {
   align-items: center;
   justify-content: space-between;
 
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
+  
   margin: auto;
 }
 
@@ -46,8 +57,8 @@ header nav ul li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-size: 14px;
-  padding: 24px;
+  font-size: 1.4rem; 
+  padding: 2.4rem;
   transition: all 250ms linear 0s;
 }
 
@@ -57,19 +68,19 @@ header nav ul li a:hover {
 
 h2 {
   color: rgb(75, 75, 75);
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
 }
 
 h3 {
   color: rgb(75, 75, 75);
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 }
 
 .button {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
   background-color: rgb(113, 89, 193);
@@ -93,7 +104,9 @@ section.hero {
 }
 
 section.hero .container {
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
+
   margin: auto;
 
   display: flex;
@@ -101,8 +114,8 @@ section.hero .container {
 
 section.hero p {
   color: rgb(154, 142, 191);
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
   margin: 10px 0px 0px;
 }
 
@@ -118,7 +131,8 @@ main {
 CARDS
 ==================*/
 .cards {
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
   margin: auto;
 
   display: grid;
@@ -127,8 +141,8 @@ CARDS
 }
 
 .text--medium {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
   font-weight: 400;
   color: #ecf0f1;
 }
@@ -300,7 +314,9 @@ FORM
 }
 
 #form form {
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
+
   background: white;
   
   padding: 40px;
@@ -334,7 +350,7 @@ FORM
   display: block;
   margin: -4px 8px 10px;
   padding: 12px;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 #form .button {
