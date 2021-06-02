@@ -24,7 +24,8 @@ header .container {
   align-items: center;
   justify-content: space-between;
 
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
   margin: auto;
 }
 
@@ -93,7 +94,8 @@ section.hero {
 }
 
 section.hero .container {
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
   margin: auto;
 
   display: flex;
@@ -118,7 +120,8 @@ main {
 CARDS
 ==================*/
 .cards {
-  width: 980px;
+  width: 90%;
+  max-width: 980px;
   margin: auto;
 
   display: grid;
@@ -147,7 +150,7 @@ CARDS
 }
 
 .image {
-  width: 100%;
+  width: 90%;
   padding-top: 56.25%; /* 16:9 */
 
   overflow: hidden;
@@ -155,7 +158,8 @@ CARDS
 }
 
 .image img {
-  width: 100%;
+ width: 90%;
+ 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -194,7 +198,8 @@ MODAL
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+ width: 90%;
+ 
   height: 100%;
   z-index: 5;
   background-color: rgba(0, 0, 0, 0.6);
@@ -277,7 +282,7 @@ MODAL
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100%;
+  width: 90%;
   height: 90%;
   transform: translate(-50%, -50%);
 }
@@ -300,7 +305,8 @@ FORM
 }
 
 #form form {
-  width: 980px;
+ width: 90%;
+  max-width: 980px;
   background: white;
   
   padding: 40px;
